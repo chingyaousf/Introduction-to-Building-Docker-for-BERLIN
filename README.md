@@ -42,7 +42,7 @@ cd C:\Users\Administrator\Desktop\BERLIN_02\3-R_Shiny_Viz_Applications_docker\DR
 
 **3. Run the Docker Container**:
 
--   Once the Docker image is successfully built, you can run the image using Docker Desktop.
+-   Once the Docker image is successfully built, you can run the image using Docker Desktop. For instance, click 3838:3838 to display web page as following.
 
     ![](https://github.com/chingyaousf/Introduction-to-Building-Docker-for-BERLIN/blob/main/data/Docker%20Desktop%20images.jpg?raw=true)
 
@@ -52,7 +52,7 @@ cd C:\Users\Administrator\Desktop\BERLIN_02\3-R_Shiny_Viz_Applications_docker\DR
 
 **4. Use Docker Compose for Building and Running**:
 
--   Create a Docker Compose YAML file in the Docker project directory.
+-   Create a Docker Compose YAML file in the Docker project directory (already included in the Docker file).
 
 -   Inside the YAML file, specify the services, image names, ports, and other configurations.
 
