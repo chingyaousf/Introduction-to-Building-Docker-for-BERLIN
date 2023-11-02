@@ -3,6 +3,7 @@
 
 ####----Install and load packages----####
 
+packages <- c("shiny","shinythemes","shinyjqui","pheatmap","BiocManager","RColorBrewer",
               "dplyr","DT","ggplot2","ggpubr","reshape2","tibble","viridis","scales",
               "plotly","readr","enrichR","ggrepel","tidyr","tools","shinycssloaders")
 
