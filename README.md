@@ -4,7 +4,7 @@
 
 In the dynamic realm of single-cell RNA sequencing (scRNA-seq), the analysis of intricate biological data holds paramount significance for unveiling the nuances of cellular heterogeneity and genetic expression. To simplify this intricate process and streamline scRNAseq data analysis, we present the Building Docker for BERLIN project.
 
-### **BERLIN: Basic Exploration of single-cell RNAseq data and LINeages** 
+### **BERLIN: Basic Exploration of single-cell RNAseq data and LINeages**
 
 <https://github.com/shawlab-moffitt/BERLIN>
 
@@ -21,6 +21,36 @@ BERLIN, an acronym for "Basic Exploration of single-cell RNAseq data and LINeage
 ### **Running the Docker Container Using Docker Desktop**:
 
 To embark on Building Docker for BERLIN, we encourage you to install Docker Desktop on your system. Once you've installed Docker Desktop, you can build the Docker image and run the container with the following simple steps:
+
+#### **Single Cell RNAseq Pipeline Docker Setup**:
+
+**1. Install Docker Desktop**: Download and install Docker Desktop for your operating system from the official Docker website ([https://www.docker.com/products/docker-desktop).](https://www.docker.com/products/docker-desktop).)
+
+**2. Build the Docker Image**:
+
+-   Clone the Docker project repository from its source.
+
+-   Open Windows command prompt and navigate to the directory containing the Dockerfie.
+
+```         
+cd C:\Users\Administrator\Desktop\BERLIN_02\2-Single_Cell_RNAseq_Pipeline_docker\Single_Cell_RNAseq_Pipeline_docker
+```
+
+-   Use the `docker build` command to build the Docker image. For example:
+
+```         
+   docker build -t single_cell_rnaseq_analysis_app .
+```
+
+**3. Run the Docker Container**:
+
+-   Once the Docker image is successfully built, you can run it using Docker Desktop. For example, click on the **'run'** **icon** to start the container, and **all output files** will be generated inside the **'app' folder** of the downloaded repository.
+
+    ![](https://github.com/chingyaousf/Introduction-to-Building-Docker-for-BERLIN-Pipeline/blob/main/data/Docker%20Desktop%20images_04.png?raw=true)
+
+    ![](https://github.com/chingyaousf/Introduction-to-Building-Docker-for-BERLIN-Pipeline/blob/main/data/Docker%20Desktop%20images_05.png?raw=true)
+
+#### **Shiny Visualization Applications Docker Setup (3 Containers, One Example Included):**
 
 **1. Install Docker Desktop**: Download and install Docker Desktop for your operating system from the official Docker website ([https://www.docker.com/products/docker-desktop).](https://www.docker.com/products/docker-desktop).)
 
@@ -62,7 +92,7 @@ cd C:\Users\Administrator\Desktop\BERLIN_02\3-R_Shiny_Viz_Applications_docker\DR
 
 -   To remove the container and associated resources, use **`docker-compose down`**.
 
-The Docker container is configured to run the Shiny app, ensuring that you can efficiently explore the intricacies of single-cell RNA sequencing with ease and consistency. This setup allows for convenient access to the Shiny app, which can be accessed on your local system via the specified port. Remember that you can run `docker-compose build` or `docker-compose up` every time you modify the Dockerfile to update the image and keep your analysis environment up to date. Please refer to the **Docker Desktop Learning Center** and **Docker Compose documentation** for comprehensive guidance on using these tools effectively.
+The Docker container is configured to run the R and Shiny app, ensuring that you can efficiently explore the intricacies of single-cell RNA sequencing with ease and consistency. This setup allows for convenient access to the R and Shiny app, which output can be accessed on your local system inside app folder or via the specified port. Remember that you can run `docker-compose build` or `docker-compose up` every time you modify the Dockerfile to update the image and keep your analysis environment up to date. Please refer to the **Docker Desktop Learning Center** and **Docker Compose documentation** for comprehensive guidance on using these tools effectively.
 
 ## Reference:
 
