@@ -32,11 +32,11 @@ To embark on Building Docker for BERLIN, we encourage you to install Docker Desk
 
     Click github.dev
 
-    ![](https://github.com/shawlab-moffitt/BERLIN/blob/main/4-Docker/data/Docker%20Desktop%20images_06.png?raw=true)
+    ![](https://github.com/chingyaousf/Introduction-to-Building-Docker-for-BERLIN-Pipeline/blob/main/data/Docker%20Desktop%20images_06.png?raw=true)
 
 -   Download Docker folder as working directory and file path.
 
-    ![](https://github.com/shawlab-moffitt/BERLIN/blob/main/4-Docker/data/Docker%20Desktop%20images_07.png?raw=true)
+    ![](https://github.com/chingyaousf/Introduction-to-Building-Docker-for-BERLIN-Pipeline/blob/main/data/Docker%20Desktop%20images_07.png?raw=true)
 
 -   Open Windows command prompt and navigate to the directory containing the Dockerfie. For example:
 
